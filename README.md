@@ -27,22 +27,27 @@ CASOS DE PRUEBA
 Curls para los 4 casos de prueba:
 
 - Caso de prueba 1:
+
 curl --location 'http://localhost:8080/v1/test/prices/35455?date=2020-06-14T10%3A00%3A00Z&brandId=1' \
 --header 'accept: application/json;charset=UTF-8'
 
 - Caso de prueba 2:
+
 curl --location 'http://localhost:8080/v1/test/prices/35455?date=2020-06-14T16%3A00%3A00Z&brandId=1' \
 --header 'accept: application/json;charset=UTF-8'
 
 - Caso de prueba 3:
+
 curl --location 'http://localhost:8080/v1/test/prices/35455?date=2020-06-14T21%3A00%3A00Z&brandId=1' \
 --header 'accept: application/json;charset=UTF-8'
 
 - Caso de prueba 4:
+
 curl --location 'http://localhost:8080/v1/test/prices/35455?date=2020-06-15T10%3A00%3A00Z&brandId=1' \
 --header 'accept: application/json;charset=UTF-8'
 
 - Caso de prueba 5: 
+
 curl --location 'http://localhost:8080/v1/test/prices/35455?date=2020-06-15T21%3A00%3A00Z&brandId=1' \
 --header 'accept: application/json;charset=UTF-8'
 
